@@ -8,7 +8,7 @@ import {HttpClient} from '@angular/common/http';
 })
 export class AppComponent {
 
-  url = 'http://localhost:9001/'; // 'https://fec-stage.pwcinternal.com/';
+  url = 'http://localhost:9001/';
 
   constructor(private http: HttpClient) {
   }
